@@ -1,0 +1,158 @@
+---
+title: Privacy Policy
+permalink: /privacy/
+---
+
+# Kova — Privacy Policy
+
+**Effective date:** August 12, 2026
+**Last updated:** August 12, 2026
+
+This Privacy Policy explains how James Craig, a sole proprietor operating as
+"Kova" ("Kova," "we," "us"), handles your information in the Kova iPhone app. We
+built Kova to be private by default: **we do not show ads, we do not sell your
+data, and you can delete your account and all of your data from inside the app at
+any time.**
+
+If you have questions, contact us at **james20june@gmail.com**.
+
+---
+
+## 1. Who is responsible for your data
+
+James Craig (a sole proprietor operating as Kova), located in Ontario, Canada, is
+the controller (and, under Canadian law, the organization) responsible for your
+personal information. For users in the EU/UK, we are the "controller" under the
+GDPR/UK GDPR.
+
+## 2. Information we collect
+
+**You provide directly:**
+- **Account** — when you sign in with Apple, we receive a unique identifier and,
+  if you choose to share it, your name and email. If you use Apple's "Hide My
+  Email," we only receive Apple's private relay address.
+- **Profile** — sex, birth date, height, weight, goal weight, activity level,
+  goals, dietary preferences/allergies, and time zone that you enter so the app
+  can compute targets and personalize coaching.
+- **Logs** — foods and water you log (name, calories, macros, source), and your
+  daily journal check-ins (mood ratings and any free-text notes).
+- **Coach messages** — the messages you send to the AI coach and the responses.
+- **Meal photos** — photos you scan. See §4 — these are processed to identify
+  foods and are **not stored** by Kova.
+
+**Collected automatically:**
+- **Subscription status** (free/premium) and daily AI-scan usage counts.
+- **Basic technical data** needed to operate the service (e.g., authentication
+  tokens). We do **not** use third-party advertising or analytics SDKs.
+
+## 3. How we use your information
+
+- To provide the app's core features: meal scanning, food/water logging, the
+  food database search, the AI coach, journaling, and your dashboard.
+- To compute and personalize your nutrition targets and coaching.
+- To operate subscriptions and enforce plan limits.
+- To secure the service and prevent abuse.
+
+We process this information to perform our contract with you (to provide the app),
+and, where applicable, based on your consent or our legitimate interest in
+operating and securing Kova.
+
+## 4. AI processing (Google Gemini) — please read
+
+Kova's meal scanning and AI coach are powered by **Google's Gemini API**.
+
+- **Meal scans:** the photo you scan is sent to Google's Gemini API to identify
+  foods and estimate nutrition. **Kova does not store your meal photos** — the
+  image is processed to produce the result and is not retained in our database.
+- **AI coach:** your coach messages, together with relevant context from your own
+  data (for example your targets, today's logged nutrition, and your latest
+  journal check-in), are sent to Google's Gemini API to generate grounded
+  responses. Your coach conversation is stored in your account so the coach can
+  remember context; you can delete it by deleting your account.
+
+Google processes this data as our service provider to return results to Kova. We
+do not use this content for advertising, and we do not sell it. Google's handling
+of Gemini API data is governed by Google's terms; see
+<https://ai.google.dev/gemini-api/terms> and <https://policies.google.com/privacy>.
+
+**AI estimates are approximations, not medical or dietary advice.** Nutrition
+figures are AI-generated estimates; where a food is matched, we link its source
+in the U.S. Department of Agriculture (USDA) FoodData Central database.
+
+## 5. Nutrition data source (USDA)
+
+Food search and citations use **USDA FoodData Central**, a public U.S. government
+database. When you search or when a scanned food is matched, we send the food
+term (not your personal information) to USDA to retrieve nutrition data.
+
+## 6. Who we share information with (sub-processors)
+
+We do not sell your personal information and we do not share it for advertising.
+We use a small set of service providers to run Kova:
+
+| Provider | Purpose | Notes |
+|---|---|---|
+| **Supabase** | Database, authentication, and backend hosting | Your data is stored in **Postgres hosted in Canada (ca-central-1)** |
+| **Apple** | Sign in with Apple; subscription billing | Governed by Apple's Privacy Policy |
+| **Google (Gemini API)** | AI meal analysis and coach responses (§4) | Processes meal photos transiently + coach context |
+| **USDA FoodData Central** | Nutrition data source (§5) | Receives food terms only, no personal data |
+
+## 7. Where your data is stored and processed
+
+Your Kova account data is stored in **Canada** (Supabase, ca-central-1). Some
+processing necessarily occurs outside Canada — for example, Apple (authentication
+and payments) and Google (Gemini AI processing) may process data in the United
+States or other countries. Where we transfer personal data internationally, we
+rely on appropriate safeguards as required by applicable law (including, for the
+EU/UK, standard contractual clauses used by these providers).
+
+## 8. Data retention and deletion
+
+We keep your information for as long as your account exists. **You can delete your
+account at any time in the app: Settings → Delete account.** Deletion is
+permanent and removes your profile, logs, journal, and coach history from our
+database. Meal photos are never stored, so there is nothing to delete there.
+Backups, if any, are cycled out on a rolling basis.
+
+## 9. Your rights
+
+Depending on where you live, you have rights over your personal information:
+
+- **Canada (PIPEDA):** access to and correction of your personal information, and
+  the ability to withdraw consent.
+- **EU/UK (GDPR):** access, rectification, erasure, restriction, portability,
+  objection, and the right to lodge a complaint with your supervisory authority.
+- **U.S. states (e.g., California/CPRA, and similar laws):** the right to know,
+  access, delete, and correct, and the right to opt out of "sale"/"sharing" and
+  targeted advertising. **We do not sell or share your personal information and we
+  do not use it for targeted advertising**, so there is nothing to opt out of.
+
+You can exercise most of these rights directly in the app (edit your profile;
+delete your account). For anything else, email **james20june@gmail.com** and we
+will respond as required by law. We will not discriminate against you for
+exercising your rights.
+
+## 10. Security
+
+Data is encrypted in transit (HTTPS/TLS). Access to your data is protected by
+per-user database security rules so that you can only access your own records.
+Sensitive keys (AI and other service credentials) are held server-side and never
+shipped in the app. No method of transmission or storage is 100% secure, but we
+work to protect your information.
+
+## 11. Children
+
+Kova is not directed to children under 13 (or the minimum age required in your
+country), and we do not knowingly collect personal information from them. If you
+believe a child has provided us information, contact us and we will delete it.
+
+## 12. Changes to this policy
+
+We may update this policy from time to time. We will change the "Last updated"
+date above and, for material changes, provide notice in the app.
+
+## 13. Contact
+
+James Craig (operating as Kova)
+Ontario, Canada
+james20june@gmail.com
