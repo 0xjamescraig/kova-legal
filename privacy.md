@@ -42,8 +42,17 @@ GDPR/UK GDPR.
 
 **Collected automatically:**
 - **Subscription status** (free/premium) and daily AI-scan usage counts.
+- **Usage events** — basic first-party analytics about which features you use
+  (for example: completing a scan, logging a meal, sending a coach message,
+  viewing the paywall, saving a journal check-in), tied to your account, so we can
+  understand usage and improve Kova.
+- **Crash & performance diagnostics** — via Apple's MetricKit, we collect crash
+  and hang diagnostics (technical data such as call stacks and device/OS info) to
+  find and fix problems. These do **not** include the content of your logs, meal
+  photos, journal, or coach messages.
 - **Basic technical data** needed to operate the service (e.g., authentication
-  tokens). We do **not** use third-party advertising or analytics SDKs.
+  tokens). We do **not** use third-party advertising or analytics SDKs — the above
+  is first-party only, stored in our own database, and never sold.
 
 ## 3. How we use your information
 
