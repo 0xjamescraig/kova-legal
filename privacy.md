@@ -102,9 +102,11 @@ Kova's meal scanning and AI coach are powered by **Google's Gemini API**.
   baseline is computed and kept **on your device only** — it is never sent to
   Google or to our servers.
 
-Google processes this data as our service provider to return results to Kova. We
-do not use this content for advertising, and we do not sell it. Google's handling
-of Gemini API data is governed by Google's terms; see
+Google processes this data as our service provider to return results to Kova.
+**Under the paid Gemini API, Google does not use your prompts or the content Kova
+sends to train or improve its models.** We do not use this content for
+advertising, and we do not sell it. Google's handling of Gemini API data is
+governed by Google's terms; see
 <https://ai.google.dev/gemini-api/terms> and <https://policies.google.com/privacy>.
 
 **AI estimates are approximations, not medical or dietary advice.** Nutrition
@@ -197,9 +199,11 @@ work to protect your information.
 
 ## 11. Children
 
-Kova is not directed to children under 13 (or the minimum age required in your
-country), and we do not knowingly collect personal information from them. If you
-believe a child has provided us information, contact us and we will delete it.
+Kova is built for adults and is rated 17+ on the App Store. It is not directed to
+children under 13 (or the minimum age required in your country), and at sign-up we
+ask your date of birth and **do not create an account for anyone under 13**. We do
+not knowingly collect personal information from children under 13. If you believe a
+child has provided us information, contact us and we will delete it.
 
 ## 12. Changes to this policy
 
