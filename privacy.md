@@ -93,6 +93,14 @@ Kova's meal scanning and AI coach are powered by **Google's Gemini API**.
   (a private, owner-only storage bucket) and is never public; older images are
   deleted automatically. Google processes the food names as our service provider
   to return the image and does not use them for advertising.
+- **Apple Health signals in coaching (optional).** If you connect Apple Health,
+  body signals for a day — resting heart rate, heart-rate variability, sleep, and
+  steps — may be sent to Google's Gemini API **as part of your own private
+  coaching** (your Day Audit reflection). They are used only to generate that
+  reflection for you and are **never rendered into an image or shown in any shared,
+  exportable, or public part of the app**. The Pulse Check's resting-heart-rate
+  baseline is computed and kept **on your device only** — it is never sent to
+  Google or to our servers.
 
 Google processes this data as our service provider to return results to Kova. We
 do not use this content for advertising, and we do not sell it. Google's handling
@@ -103,11 +111,17 @@ of Gemini API data is governed by Google's terms; see
 figures are AI-generated estimates; where a food is matched, we link its source
 in the U.S. Department of Agriculture (USDA) FoodData Central database.
 
-## 5. Nutrition data source (USDA)
+## 5. Nutrition data sources (USDA and Open Food Facts)
 
 Food search and citations use **USDA FoodData Central**, a public U.S. government
 database. When you search or when a scanned food is matched, we send the food
 term (not your personal information) to USDA to retrieve nutrition data.
+
+Food search also uses **Open Food Facts**, a community database of packaged
+products, to cover branded items. As with USDA, we send only the food term (not
+your personal information), and where a result comes from Open Food Facts we
+credit it in the app ("Data from Open Food Facts"). Open Food Facts data is made
+available under the Open Database License (ODbL).
 
 ## 6. Who we share information with (sub-processors)
 
@@ -120,11 +134,14 @@ We use a small set of service providers to run Kova:
 | **Apple** | Sign in with Apple; subscription billing | Governed by Apple's Privacy Policy |
 | **Google (Gemini API)** | AI meal/receipt/menu analysis, coach responses, and Plate Twin images (§4) | Processes photos transiently + coach context + food names for Plate Twin |
 | **USDA FoodData Central** | Nutrition data source (§5) | Receives food terms only, no personal data |
+| **Open Food Facts** | Branded/packaged food data (§5) | Receives food terms only, no personal data; data under ODbL |
 
 **Apple Health:** if you connect it, your health data is read and written **on your
-device**. Apple Health is not a sub-processor — your health data is **not sent to
-Google, not sent to our servers, and not shared with any provider above** as part
-of AI processing.
+device**, and Apple Health is not a sub-processor. Your body signals are **never
+shown in any shared, exportable, or public part of the app**, and the Pulse Check
+baseline stays **on your device**. The one exception is your **own private
+coaching**: as described in §4, a day's body signals may be sent to Google's Gemini
+API to generate your reflection, and are used for nothing else.
 
 ## 7. Where your data is stored and processed
 
@@ -144,6 +161,13 @@ database, along with any Plate Twin images stored in your private bucket. Meal,
 receipt, and menu photos are never stored, so there is nothing to delete there.
 Plate Twin images are also deleted automatically after about 30 days. Backups, if
 any, are cycled out on a rolling basis.
+
+If you connect Apple Health, the Pulse Check heart-rate baseline is stored **only
+on your device** and is removed when you delete the app; a day's body signals used
+for a coaching reflection are sent to Google transiently (see §4) and are not
+stored by us beyond your coach history. A check-in you open from a Pulse Check is
+saved with a small context tag (for example, "elevated stretch") in your account
+so the coach has context; it is deleted when you delete your account.
 
 ## 9. Your rights
 
