@@ -6,7 +6,7 @@ permalink: /privacy/
 # Kova — Privacy Policy
 
 **Effective date:** August 12, 2026
-**Last updated:** August 13, 2026
+**Last updated:** August 14, 2026
 
 This Privacy Policy explains how James Craig, a sole proprietor operating as
 "Kova" ("Kova," "we," "us"), handles your information in the Kova iPhone app. We
@@ -39,6 +39,12 @@ GDPR/UK GDPR.
 - **Coach messages** — the messages you send to the AI coach and the responses.
 - **Meal photos** — photos you scan. See §4 — these are processed to identify
   foods and are **not stored** by Kova.
+- **Health data (optional).** If you connect Apple Health, Kova reads your steps,
+  sleep, workouts, resting heart rate, and heart-rate variability to sharpen your
+  coaching, and writes the meals, water, and breathwork minutes you log back to
+  Apple Health. You choose exactly what to share in the Health app and can
+  disconnect at any time. This data is used only for your own coaching and **never
+  appears in any shared, exportable, or public part of the app.**
 
 **Collected automatically:**
 - **Subscription status** (free/premium) and daily AI-scan usage counts.
@@ -114,6 +120,11 @@ We use a small set of service providers to run Kova:
 | **Apple** | Sign in with Apple; subscription billing | Governed by Apple's Privacy Policy |
 | **Google (Gemini API)** | AI meal/receipt/menu analysis, coach responses, and Plate Twin images (§4) | Processes photos transiently + coach context + food names for Plate Twin |
 | **USDA FoodData Central** | Nutrition data source (§5) | Receives food terms only, no personal data |
+
+**Apple Health:** if you connect it, your health data is read and written **on your
+device**. Apple Health is not a sub-processor — your health data is **not sent to
+Google, not sent to our servers, and not shared with any provider above** as part
+of AI processing.
 
 ## 7. Where your data is stored and processed
 
