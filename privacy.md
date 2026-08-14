@@ -6,7 +6,7 @@ permalink: /privacy/
 # Kova — Privacy Policy
 
 **Effective date:** August 12, 2026
-**Last updated:** August 12, 2026
+**Last updated:** August 13, 2026
 
 This Privacy Policy explains how James Craig, a sole proprietor operating as
 "Kova" ("Kova," "we," "us"), handles your information in the Kova iPhone app. We
@@ -70,14 +70,23 @@ operating and securing Kova.
 
 Kova's meal scanning and AI coach are powered by **Google's Gemini API**.
 
-- **Meal scans:** the photo you scan is sent to Google's Gemini API to identify
-  foods and estimate nutrition. **Kova does not store your meal photos** — the
-  image is processed to produce the result and is not retained in our database.
+- **Meal, receipt, and menu scans:** the photo you scan (a meal, a receipt, or a
+  restaurant menu) is sent to Google's Gemini API to identify foods and estimate
+  nutrition. **Kova does not store these photos** — the image is processed to
+  produce the result and is not retained in our database.
 - **AI coach:** your coach messages, together with relevant context from your own
   data (for example your targets, today's logged nutrition, and your latest
   journal check-in), are sent to Google's Gemini API to generate grounded
   responses. Your coach conversation is stored in your account so the coach can
   remember context; you can delete it by deleting your account.
+- **Plate Twin (optional).** When you open your day's Plate Twin, Kova generates
+  one artistic flat-lay image of that day. **Only the names of the foods you
+  logged that day are sent to Google's Gemini API to generate the image — nothing
+  else: not your identity, not any photos, not your journal, and not your calorie
+  or macro numbers.** The generated image is stored privately in your own account
+  (a private, owner-only storage bucket) and is never public; older images are
+  deleted automatically. Google processes the food names as our service provider
+  to return the image and does not use them for advertising.
 
 Google processes this data as our service provider to return results to Kova. We
 do not use this content for advertising, and we do not sell it. Google's handling
@@ -103,7 +112,7 @@ We use a small set of service providers to run Kova:
 |---|---|---|
 | **Supabase** | Database, authentication, and backend hosting | Your data is stored in **Postgres hosted in Canada (ca-central-1)** |
 | **Apple** | Sign in with Apple; subscription billing | Governed by Apple's Privacy Policy |
-| **Google (Gemini API)** | AI meal analysis and coach responses (§4) | Processes meal photos transiently + coach context |
+| **Google (Gemini API)** | AI meal/receipt/menu analysis, coach responses, and Plate Twin images (§4) | Processes photos transiently + coach context + food names for Plate Twin |
 | **USDA FoodData Central** | Nutrition data source (§5) | Receives food terms only, no personal data |
 
 ## 7. Where your data is stored and processed
@@ -120,8 +129,10 @@ EU/UK, standard contractual clauses used by these providers).
 We keep your information for as long as your account exists. **You can delete your
 account at any time in the app: Settings → Delete account.** Deletion is
 permanent and removes your profile, logs, journal, and coach history from our
-database. Meal photos are never stored, so there is nothing to delete there.
-Backups, if any, are cycled out on a rolling basis.
+database, along with any Plate Twin images stored in your private bucket. Meal,
+receipt, and menu photos are never stored, so there is nothing to delete there.
+Plate Twin images are also deleted automatically after about 30 days. Backups, if
+any, are cycled out on a rolling basis.
 
 ## 9. Your rights
 
