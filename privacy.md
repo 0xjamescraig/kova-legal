@@ -120,10 +120,12 @@ database. When you search or when a scanned food is matched, we send the food
 term (not your personal information) to USDA to retrieve nutrition data.
 
 Food search also uses **Open Food Facts**, a community database of packaged
-products, to cover branded items. As with USDA, we send only the food term (not
-your personal information), and where a result comes from Open Food Facts we
-credit it in the app ("Data from Open Food Facts"). Open Food Facts data is made
-available under the Open Database License (ODbL).
+products, to cover branded items — including when you scan a product barcode, in
+which case we send the barcode number (not your personal information) to USDA and
+Open Food Facts to look up the product. As with USDA, we send only the food term
+or barcode, and where a result comes from Open Food Facts we credit it in the app
+("Data from Open Food Facts"). Open Food Facts data is made available under the
+Open Database License (ODbL).
 
 ## 6. Who we share information with (sub-processors)
 
