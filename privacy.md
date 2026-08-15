@@ -101,6 +101,13 @@ Kova's meal scanning and AI coach are powered by **Google's Gemini API**.
   exportable, or public part of the app**. The Pulse Check's resting-heart-rate
   baseline is computed and kept **on your device only** — it is never sent to
   Google or to our servers.
+- **Spoken voice (text-to-speech).** When Kova speaks — the coach's spoken replies,
+  the breathwork guide, and the Kova Radio morning brief — the text to be spoken is
+  sent to Google's Gemini API to be rendered as audio. For the Kova Radio morning
+  brief, Kova first assembles a short summary of your recent data (yesterday's
+  logging and today's targets) into that spoken text. The generated audio is stored
+  privately in your own account so a repeated line is not re-generated, and is
+  deleted when you delete your account. No audio is public.
 
 Google processes this data as our service provider to return results to Kova.
 **Under the paid Gemini API, Google does not use your prompts or the content Kova
@@ -136,7 +143,7 @@ We use a small set of service providers to run Kova:
 |---|---|---|
 | **Supabase** | Database, authentication, and backend hosting | Your data is stored in **Postgres hosted in Canada (ca-central-1)** |
 | **Apple** | Sign in with Apple; subscription billing | Governed by Apple's Privacy Policy |
-| **Google (Gemini API)** | AI meal/receipt/menu analysis, coach responses, and Plate Twin images (§4) | Processes photos transiently + coach context + food names for Plate Twin |
+| **Google (Gemini API)** | AI meal/receipt/menu analysis, coach responses, Plate Twin images, and spoken-voice (text-to-speech) audio (§4) | Processes photos transiently + coach context + food names for Plate Twin + text to be spoken |
 | **USDA FoodData Central** | Nutrition data source (§5) | Receives food terms only, no personal data |
 | **Open Food Facts** | Branded/packaged food data (§5) | Receives food terms only, no personal data; data under ODbL |
 

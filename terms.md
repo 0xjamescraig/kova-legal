@@ -69,6 +69,13 @@ Kova offers auto-renewing subscriptions ("Kova Premium"):
   policies. We generally cannot issue refunds directly.
 - **Free tier limits:** Some features (e.g., the number of AI meal scans per day)
   are limited on the free tier and expanded with Premium, as described in the app.
+- **Kova's spoken voice (voice week):** Kova's own spoken voice — the AI coach's
+  spoken replies, the breathwork voice guide, and the Kova Radio morning brief — is
+  a Premium feature. **New accounts get it free for their first 7 days**; after that
+  it requires Premium. Without Premium (once the first 7 days have passed), spoken
+  playback uses your device's built-in system voice instead, and the Kova Radio
+  morning brief is not available. A free 7-day introductory trial of Premium, when
+  offered, is separate from this voice week and is described at purchase.
 
 Any discounts are offered only through Apple (e.g., introductory offers or Apple
 Offer Codes). Kova does not offer promo codes or purchases outside the App Store.
