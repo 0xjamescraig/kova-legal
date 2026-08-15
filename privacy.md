@@ -37,6 +37,11 @@ GDPR/UK GDPR.
 - **Logs** — foods and water you log (name, calories, macros, source), and your
   daily journal check-ins (mood ratings and any free-text notes).
 - **Coach messages** — the messages you send to the AI coach and the responses.
+- **Imported history (optional)** — if you import a MyFitnessPal export, the CSV
+  file is **read on your device**; its food entries are added to your Kova history
+  (stored in your account like any other log), and a short summary of your long-term
+  averages is written to your coach's memory so it knows your history. The file is
+  not sent anywhere, and only your own data is imported.
 - **Meal photos** — photos you scan. See §4 — these are processed to identify
   foods and are **not stored** by Kova.
 - **Health data (optional).** If you connect Apple Health, Kova reads your steps,
